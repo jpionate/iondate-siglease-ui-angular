@@ -1,0 +1,10 @@
+{
+  "/anfbater/anfbater*": {
+    "target": "http://localhost:8080",
+    "secure": false
+  },
+  "/anfbater_variable/*": {
+    "target": "http://localhost:8080",
+    "secure": false
+  }
+}

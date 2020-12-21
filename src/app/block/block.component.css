@@ -1,0 +1,19 @@
+mat-table {
+    width: 100%;
+    height: 100%;
+}
+
+.mat-row {
+    height: 3.5vh;
+    min-height: 3vh;
+}
+
+.mat-header-row {
+    height: 3.5vh;
+    min-height: 3vh;
+}
+  
+.mat-cell {
+    margin: 1px 1px 1px 0;
+    padding: 1px 1px 1px 15px;
+}

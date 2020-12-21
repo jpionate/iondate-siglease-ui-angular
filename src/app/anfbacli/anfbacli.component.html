@@ -1,0 +1,656 @@
+<div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem graphic' data-canvas-name='PCONG' id='PCONG-M1' style='position:absolute; left:6px; top:8px; width:802px; height:62px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem graphic' data-canvas-name='PCONG' id='PCONG-FRAME262' style='position:absolute; left:6px; top:90px; width:1498px; height:648px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem graphic' data-canvas-name='PCONGV' id='PCONGV-TEXT291' style='position:absolute; left:9018px; top:20px; width:70px; height:20px; border: 1px solid red;'>
+Cod Ciuu
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem graphic' data-canvas-name='EXP_PLANO' id='EXP_PLANO-TEXT15' style='position:absolute; left:10px; top:74px; width:34px; height:20px; border: 1px solid red;'>
+Ruta:
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem graphic' data-canvas-name='EXP_PLANO' id='EXP_PLANO-TEXT24' style='position:absolute; left:196px; top:18px; width:118px; height:20px; border: 1px solid red;'>
+Generar Archivo
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem graphic' data-canvas-name='EXP_PLANO' id='EXP_PLANO-TEXT27' style='position:absolute; left:26px; top:124px; width:120px; height:28px; border: 1px solid red;'>
+Abrir con:
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT1' style='position:absolute; left:0px; top:0px; width:0px; height:0px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT4' style='position:absolute; left:0px; top:0px; width:0px; height:0px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT7' style='position:absolute; left:0px; top:0px; width:0px; height:0px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT10' style='position:absolute; left:0px; top:0px; width:0px; height:0px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='PROCESO-MENSAJE' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PROCESO.MENSAJE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='PROCESO-PLANO' style='position:absolute; left:1444px; top:8px; width: 56px; height:56px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PROCESO.PLANO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-BD' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.BD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-BASE_DAT' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.BASE_DAT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-FECHA' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.FECHA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-FORMA' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.FORMA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-USUARIO' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.USUARIO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-OFICINA' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.OFICINA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-IMLGO' style='position:absolute; left:0px; top:0px; width: 482px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.IMLGO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-AYUDA' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.AYUDA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-LASTR' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.LASTR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-FIRST' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.FIRST'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-KEY_EXIT' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.KEY_EXIT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-ABAJO' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.ABAJO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-ARRIBA' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.ARRIBA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-IMPRIMIR' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.IMPRIMIR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-DELETE_RECORD' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.DELETE_RECORD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-NEXT_BLOCK' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.NEXT_BLOCK'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-LIST' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.LIST'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-EDIT' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.EDIT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-CLEAR_RECORD' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.CLEAR_RECORD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-SAVE' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.SAVE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-INSERT_RECORD' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.INSERT_RECORD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-QUERY_FIND' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.QUERY_FIND'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-PREV_BLOCK' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.PREV_BLOCK'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-BUTTON_HELP' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.BUTTON_HELP'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-PRINT' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.PRINT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-HELP' style='position:absolute; left:0px; top:0px; width: 0px; height:0px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.HELP'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BPAR-CONTADOR' style='position:absolute; left:0px; top:0px; width: 136px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BPAR.CONTADOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='BPAR-MES' style='position:absolute; left:124px; top:22px; width: 126px; height:30px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BPAR.MES'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='BPAR-AGNO' style='position:absolute; left:356px; top:22px; width: 84px; height:30px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BPAR.AGNO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='BPAR-SALMIN' style='position:absolute; left:608px; top:24px; width: 188px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BPAR.SALMIN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem item' data-canvas-name='EXP_PLANO' id='PLANO-RG_TIPO' style='position:absolute; left:0px; top:0px; width: 136px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PLANO.RG_TIPO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem item' data-canvas-name='EXP_PLANO' id='PLANO-RUTA' style='position:absolute; left:62px; top:68px; width: 486px; height:34px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PLANO.RUTA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='PLANO-TXT_BLOQUE' style='position:absolute; left:0px; top:0px; width: 136px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PLANO.TXT_BLOQUE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem item' data-canvas-name='EXP_PLANO' id='PLANO-BTN_GENERAR' style='position:absolute; left:174px; top:200px; width: 128px; height:42px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PLANO.BTN_GENERAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem item' data-canvas-name='EXP_PLANO' id='PLANO-BTN_REGRESAR' style='position:absolute; left:330px; top:200px; width: 128px; height:42px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PLANO.BTN_REGRESAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "EXP_PLANO"' class='form-elem item' data-canvas-name='EXP_PLANO' id='PLANO-BTN_ABRE' style='position:absolute; left:550px; top:66px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='PLANO.BTN_ABRE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='BBOTONES-CONSULTA' style='position:absolute; left:1382px; top:8px; width: 58px; height:58px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBOTONES.CONSULTA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='BBOTONES-GENINFO' style='position:absolute; left:928px; top:8px; width: 58px; height:58px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBOTONES.GENINFO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BBOTONES-ARCHIVOB' style='position:absolute; left:108px; top:16px; width: 578px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBOTONES.ARCHIVOB'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BBOTONES-ACEPTARB' style='position:absolute; left:186px; top:60px; width: 136px; height:34px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBOTONES.ACEPTARB'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BBOTONES-CANCELARB' style='position:absolute; left:388px; top:60px; width: 136px; height:34px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBOTONES.CANCELARB'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-OFICINA' style='position:absolute; left:22px; top:132px; width: 36px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.OFICINA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-TIPCOLOCACION' style='position:absolute; left:76px; top:132px; width: 92px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.TIPCOLOCACION'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CONTRATO' style='position:absolute; left:178px; top:132px; width: 80px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CONTRATO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CONTRATOINICIAL' style='position:absolute; left:274px; top:132px; width: 80px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CONTRATOINICIAL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-IDBENEFICIARIO' style='position:absolute; left:2px; top:20px; width: 120px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.IDBENEFICIARIO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-NOMBENEFICIARI' style='position:absolute; left:140px; top:20px; width: 348px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.NOMBENEFICIARI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-ESTADOCOL' style='position:absolute; left:490px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.ESTADOCOL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-ESTAGOREG' style='position:absolute; left:576px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.ESTAGOREG'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-FECCORTE' style='position:absolute; left:626px; top:20px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.FECCORTE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CALIFRIEANT' style='position:absolute; left:750px; top:20px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CALIFRIEANT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CALIFRIEACT' style='position:absolute; left:842px; top:20px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CALIFRIEACT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CALIFMORANT' style='position:absolute; left:938px; top:20px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CALIFMORANT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CALIFMORACT' style='position:absolute; left:1046px; top:20px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CALIFMORACT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DIASMORAANT' style='position:absolute; left:1146px; top:20px; width: 50px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DIASMORAANT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DIASMORAACT' style='position:absolute; left:1252px; top:20px; width: 50px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DIASMORAACT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CALSARCA' style='position:absolute; left:1368px; top:20px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CALSARCA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CALSALRC' style='position:absolute; left:1456px; top:20px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CALSALRC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-COMERCIAL' style='position:absolute; left:1498px; top:20px; width: 400px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.COMERCIAL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-ESTADOCOBRO' style='position:absolute; left:1906px; top:20px; width: 30px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.ESTADOCOBRO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-AGENTECOBRO' style='position:absolute; left:2014px; top:22px; width: 42px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.AGENTECOBRO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-IDABO' style='position:absolute; left:2084px; top:22px; width: 136px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.IDABO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-NOMABO' style='position:absolute; left:2224px; top:22px; width: 358px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.NOMABO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-TIPABO' style='position:absolute; left:2600px; top:22px; width: 30px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.TIPABO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CODPLA' style='position:absolute; left:2664px; top:22px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CODPLA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DESPLA' style='position:absolute; left:2710px; top:22px; width: 168px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DESPLA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-MODPAGO' style='position:absolute; left:2882px; top:22px; width: 30px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.MODPAGO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-PERIODICIDAD' style='position:absolute; left:2964px; top:22px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.PERIODICIDAD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-PLAZODIAS' style='position:absolute; left:3052px; top:22px; width: 80px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.PLAZODIAS'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-NUMCANONES' style='position:absolute; left:3160px; top:22px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.NUMCANONES'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-FLUJOSCAN' style='position:absolute; left:3258px; top:22px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.FLUJOSCAN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-FLUJOSMOR' style='position:absolute; left:3348px; top:22px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.FLUJOSMOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-FECCONINI' style='position:absolute; left:3416px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.FECCONINI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-FECINICIAL' style='position:absolute; left:3526px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.FECINICIAL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-FECVENCIMIENTO' style='position:absolute; left:3642px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.FECVENCIMIENTO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CANCELACION' style='position:absolute; left:3756px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CANCELACION'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-ORIGENMON' style='position:absolute; left:3900px; top:22px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.ORIGENMON'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-INDICADOR' style='position:absolute; left:3990px; top:22px; width: 30px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.INDICADOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SPREAD' style='position:absolute; left:4040px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SPREAD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-TASAEFECANUAL' style='position:absolute; left:4142px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.TASAEFECANUAL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-LINEA' style='position:absolute; left:4254px; top:22px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.LINEA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DESLINEA' style='position:absolute; left:4284px; top:22px; width: 160px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DESLINEA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-GARANTIA' style='position:absolute; left:4456px; top:22px; width: 30px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.GARANTIA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-TIPGARANTIA' style='position:absolute; left:4508px; top:22px; width: 36px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.TIPGARANTIA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-VALGAR' style='position:absolute; left:4566px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.VALGAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-VALORINI' style='position:absolute; left:4704px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.VALORINI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-OPCIONCOMPRA' style='position:absolute; left:4844px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.OPCIONCOMPRA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-VPN' style='position:absolute; left:4984px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.VPN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDO' style='position:absolute; left:5124px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDOCAPITAL' style='position:absolute; left:5130px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDOCAPITAL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDOINTERESES' style='position:absolute; left:5274px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDOINTERESES'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-PROVCAPITAL' style='position:absolute; left:5416px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.PROVCAPITAL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-PROVINTERESES' style='position:absolute; left:5554px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.PROVINTERESES'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-PROVDEUDO' style='position:absolute; left:5698px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.PROVDEUDO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDOCAPCAR' style='position:absolute; left:5846px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDOCAPCAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDOINTCAR' style='position:absolute; left:5988px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDOINTCAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDOSEGCAR' style='position:absolute; left:6130px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDOSEGCAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDOIVACAR' style='position:absolute; left:6270px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDOIVACAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SALDOTIMCAR' style='position:absolute; left:6412px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SALDOTIMCAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-VALMORA' style='position:absolute; left:5846px; top:22px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.VALMORA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CATEG' style='position:absolute; left:5996px; top:22px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CATEG'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-VCALIF' style='position:absolute; left:6034px; top:22px; width: 24px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.VCALIF'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-INMOBILIARIO' style='position:absolute; left:6070px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.INMOBILIARIO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-TIPOACTIVO' style='position:absolute; left:6170px; top:22px; width: 160px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.TIPOACTIVO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CLASEACTIVO' style='position:absolute; left:6338px; top:22px; width: 160px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CLASEACTIVO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CIUDAD' style='position:absolute; left:6518px; top:22px; width: 160px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CIUDAD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DEPARTAMENTO' style='position:absolute; left:6690px; top:22px; width: 178px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DEPARTAMENTO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SECTOR' style='position:absolute; left:7720px; top:22px; width: 30px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SECTOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-SUBSEC' style='position:absolute; left:7954px; top:22px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.SUBSEC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-FECUEF' style='position:absolute; left:6872px; top:22px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.FECUEF'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-ANALCRED' style='position:absolute; left:6976px; top:22px; width: 306px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.ANALCRED'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-TELBENE' style='position:absolute; left:7292px; top:22px; width: 134px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.TELBENE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DIRBENE' style='position:absolute; left:7434px; top:22px; width: 342px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DIRBENE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DESSECTOR' style='position:absolute; left:7788px; top:22px; width: 208px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DESSECTOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DESSUBSEC' style='position:absolute; left:8002px; top:22px; width: 254px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DESSUBSEC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-DESCRIACTIVO' style='position:absolute; left:8262px; top:22px; width: 344px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.DESCRIACTIVO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='BBACLI-CIUU' style='position:absolute; left:8610px; top:22px; width: 160px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BBACLI.CIUU'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='COTBASCLI-BASCLI_OFICIN' style='position:absolute; left:14px; top:132px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_OFICIN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='COTBASCLI-BASCLI_TCOLO' style='position:absolute; left:64px; top:132px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_TCOLO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONG"' class='form-elem item' data-canvas-name='PCONG' id='COTBASCLI-BASCLI_CONTRA' style='position:absolute; left:202px; top:132px; width: 118px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CONTRA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CONTRI' style='position:absolute; left:2px; top:20px; width: 80px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CONTRI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_IDBENE' style='position:absolute; left:82px; top:20px; width: 110px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_IDBENE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_NOMBEN' style='position:absolute; left:194px; top:20px; width: 338px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_NOMBEN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-TXT_PIEDRA' style='position:absolute; left:532px; top:20px; width: 86px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.TXT_PIEDRA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_ESTACO' style='position:absolute; left:618px; top:20px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_ESTACO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_ESTARE' style='position:absolute; left:656px; top:20px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_ESTARE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_FECCOR' style='position:absolute; left:696px; top:20px; width: 110px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_FECCOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CALRAN' style='position:absolute; left:826px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CALRAN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CALRAC' style='position:absolute; left:882px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CALRAC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CALMAN' style='position:absolute; left:950px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CALMAN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CALMAC' style='position:absolute; left:1006px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CALMAC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DIMOAN' style='position:absolute; left:1062px; top:20px; width: 62px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DIMOAN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DIMOAC' style='position:absolute; left:1148px; top:20px; width: 66px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DIMOAC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CALSAN' style='position:absolute; left:1226px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CALSAN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CALSAC' style='position:absolute; left:1284px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CALSAC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_COMERC' style='position:absolute; left:1338px; top:20px; width: 320px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_COMERC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_ESTCOB' style='position:absolute; left:1660px; top:20px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_ESTCOB'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_AGENTE' style='position:absolute; left:1700px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_AGENTE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_IDABO' style='position:absolute; left:1754px; top:20px; width: 108px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_IDABO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_NOMABO' style='position:absolute; left:1862px; top:20px; width: 320px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_NOMABO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_TIPABO' style='position:absolute; left:2184px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_TIPABO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CODPLA' style='position:absolute; left:2230px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CODPLA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DESPLA' style='position:absolute; left:2286px; top:20px; width: 100px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DESPLA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_MODPAG' style='position:absolute; left:2396px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_MODPAG'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_PERIOD' style='position:absolute; left:2450px; top:20px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_PERIOD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_PLAZOD' style='position:absolute; left:2514px; top:20px; width: 80px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_PLAZOD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_NUMCAN' style='position:absolute; left:2594px; top:20px; width: 72px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_NUMCAN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_FLUCAN' style='position:absolute; left:2668px; top:20px; width: 74px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_FLUCAN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_FLUMOR' style='position:absolute; left:2742px; top:20px; width: 84px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_FLUMOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_FECCON' style='position:absolute; left:2824px; top:20px; width: 110px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_FECCON'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_FECINI' style='position:absolute; left:2936px; top:20px; width: 110px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_FECINI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_FECVEN' style='position:absolute; left:3046px; top:20px; width: 110px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_FECVEN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CANCEL' style='position:absolute; left:3156px; top:20px; width: 110px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CANCEL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_ORIGEN' style='position:absolute; left:3266px; top:20px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_ORIGEN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_INDICA' style='position:absolute; left:3306px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_INDICA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SPREAD' style='position:absolute; left:3360px; top:20px; width: 90px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SPREAD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_TASAEF' style='position:absolute; left:3452px; top:20px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_TASAEF'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_LINEA' style='position:absolute; left:3512px; top:20px; width: 40px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_LINEA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DESLIN' style='position:absolute; left:3552px; top:20px; width: 308px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DESLIN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_GARANT' style='position:absolute; left:3862px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_GARANT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_TIPGAR' style='position:absolute; left:3918px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_TIPGAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_VALGAR' style='position:absolute; left:3948px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_VALGAR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_VALORI' style='position:absolute; left:4086px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_VALORI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_OPCION' style='position:absolute; left:4226px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_OPCION'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_VPN' style='position:absolute; left:4366px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_VPN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALDO' style='position:absolute; left:4504px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALDO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALDOC' style='position:absolute; left:4646px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALDOC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALDOI' style='position:absolute; left:4786px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALDOI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_PROVCA' style='position:absolute; left:4926px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_PROVCA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_PROVIN' style='position:absolute; left:5066px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_PROVIN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_PROVDE' style='position:absolute; left:5206px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_PROVDE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALCCA' style='position:absolute; left:5346px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALCCA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALCIN' style='position:absolute; left:5488px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALCIN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALCSE' style='position:absolute; left:5628px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALCSE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALCIV' style='position:absolute; left:5768px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALCIV'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALCTI' style='position:absolute; left:5910px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALCTI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_VALMOR' style='position:absolute; left:6052px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_VALMOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CATEGO' style='position:absolute; left:6192px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CATEGO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_VCALIF' style='position:absolute; left:6248px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_VCALIF'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_INMOBI' style='position:absolute; left:6278px; top:20px; width: 132px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_INMOBI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_TIPOAC' style='position:absolute; left:6412px; top:20px; width: 230px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_TIPOAC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CLASEA' style='position:absolute; left:6642px; top:20px; width: 222px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CLASEA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CIUDAD' style='position:absolute; left:6864px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CIUDAD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DEPART' style='position:absolute; left:7006px; top:20px; width: 140px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DEPART'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SECTOR' style='position:absolute; left:7146px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SECTOR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SUBSEC' style='position:absolute; left:7336px; top:20px; width: 54px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SUBSEC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_FECUEF' style='position:absolute; left:7600px; top:20px; width: 80px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_FECUEF'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_ANALCR' style='position:absolute; left:7682px; top:20px; width: 308px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_ANALCR'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_TELBEN' style='position:absolute; left:7992px; top:20px; width: 120px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_TELBEN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DIRBEN' style='position:absolute; left:8114px; top:20px; width: 370px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DIRBEN'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DESSEC' style='position:absolute; left:7174px; top:20px; width: 160px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DESSEC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DESSUB' style='position:absolute; left:7390px; top:20px; width: 210px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DESSUB'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DESACT' style='position:absolute; left:8484px; top:20px; width: 502px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DESACT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_COCIUU' style='position:absolute; left:8988px; top:20px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_COCIUU'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CIUU' style='position:absolute; left:9050px; top:20px; width: 356px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CIUU'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CLACON' style='position:absolute; left:9406px; top:20px; width: 28px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CLACON'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALCCK' style='position:absolute; left:9434px; top:20px; width: 136px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALCCK'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_SALCCI' style='position:absolute; left:9570px; top:20px; width: 136px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_SALCCI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CLASAC' style='position:absolute; left:9708px; top:20px; width: 30px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CLASAC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_DESLEES' style='position:absolute; left:9740px; top:20px; width: 590px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_DESLEES'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_TIPCOL' style='position:absolute; left:10332px; top:20px; width: 36px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_TIPCOL'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-TXT_CONTRATO' style='position:absolute; left:10370px; top:20px; width: 126px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.TXT_CONTRATO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-TXT_TERCOD_TERDCH' style='position:absolute; left:10496px; top:20px; width: 120px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.TXT_TERCOD_TERDCH'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='COTBASCLI-TXT_COLDIGCHE' style='position:absolute; left:10386px; top:20px; width: 174px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.TXT_COLDIGCHE'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='COTBASCLI-TXT_TERDCH' style='position:absolute; left:10386px; top:20px; width: 174px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.TXT_TERDCH'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "PCONGV"' class='form-elem item' data-canvas-name='PCONGV' id='COTBASCLI-BASCLI_CLAPAG' style='position:absolute; left:10616px; top:20px; width: 304px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='COTBASCLI.BASCLI_CLAPAG'></app-input-item>
+</div>
+</div>

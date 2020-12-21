@@ -1,0 +1,9 @@
+<mat-sidenav-container class="tp-container">
+    <mat-sidenav mode="side" opened>
+        <ng-material-multilevel-menu [configuration]='config' [items]='appitems'>
+        </ng-material-multilevel-menu>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

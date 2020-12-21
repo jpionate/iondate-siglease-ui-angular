@@ -1,0 +1,122 @@
+<div>
+<div *ngIf='currentCanvas == "CANVAS1"' class='form-elem graphic' data-canvas-name='CANVAS1' id='CANVAS1-RECT1' style='position:absolute; left:0px; top:0px; width:1068px; height:646px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == "CANVAS1"' class='form-elem graphic' data-canvas-name='CANVAS1' id='CANVAS1-TEXT8' style='position:absolute; left:64px; top:24px; width:300px; height:22px; border: 1px solid red;'>
+Tabla de Líneas de Productos de la Compañia
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-RECT1' style='position:absolute; left:10px; top:18px; width:226px; height:84px; border: 1px solid red;'>
+
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT3' style='position:absolute; left:508px; top:94px; width:222px; height:24px; border: 1px solid red;'>
+ SISTEMA DE CREDITO 
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT6' style='position:absolute; left:960px; top:90px; width:64px; height:22px; border: 1px solid red;'>
+PROGR.:
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT14' style='position:absolute; left:944px; top:66px; width:80px; height:22px; border: 1px solid red;'>
+USUARIO :
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT17' style='position:absolute; left:962px; top:40px; width:62px; height:22px; border: 1px solid red;'>
+FECHA :
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem graphic' data-canvas-name='TOOLBAR' id='TOOLBAR-TEXT20' style='position:absolute; left:622px; top:38px; width:32px; height:22px; border: 1px solid red;'>
+BD :
+</div>
+<div *ngIf='currentCanvas == "CANVAS1"' class='form-elem item' data-canvas-name='CANVAS1' id='TLIN-TLINCOD' style='position:absolute; left:294px; top:88px; width: 46px; height:32px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TLIN.TLINCOD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "CANVAS1"' class='form-elem item' data-canvas-name='CANVAS1' id='TLIN-TLINDES' style='position:absolute; left:340px; top:88px; width: 466px; height:32px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TLIN.TLINDES'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "CANVAS1"' class='form-elem item' data-canvas-name='CANVAS1' id='CRTTIPROLI-IPROLI_CODUNI' style='position:absolute; left:256px; top:258px; width: 60px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='CRTTIPROLI.IPROLI_CODUNI'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' data-canvas-name='' id='CRTTIPROLI-IPROLI_CLINEA' style='position:absolute; left:420px; top:138px; width: 70px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='CRTTIPROLI.IPROLI_CLINEA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "CANVAS1"' class='form-elem item' data-canvas-name='CANVAS1' id='CRTTIPROLI-IPROLI_CTIPRO' style='position:absolute; left:316px; top:258px; width: 86px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='CRTTIPROLI.IPROLI_CTIPRO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "CANVAS1"' class='form-elem item' data-canvas-name='CANVAS1' id='CRTTIPROLI-IPROLI_CTIPRO_DESC' style='position:absolute; left:402px; top:258px; width: 474px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='CRTTIPROLI.IPROLI_CTIPRO_DESC'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-OPCION' style='position:absolute; left:0px; top:0px; width: 90px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.OPCION'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='BASE-BD' style='position:absolute; left:0px; top:0px; width: 90px; height:28px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.BD'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='BASE-BASE_DAT' style='position:absolute; left:664px; top:36px; width: 144px; height:26px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.BASE_DAT'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='BASE-FECHA' style='position:absolute; left:1030px; top:38px; width: 156px; height:26px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.FECHA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='BASE-USUARIO' style='position:absolute; left:1030px; top:62px; width: 156px; height:26px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.USUARIO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='BASE-FORMA' style='position:absolute; left:1030px; top:88px; width: 156px; height:26px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.FORMA'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='BASE-LOGO' style='position:absolute; left:12px; top:2px; width: 460px; height:84px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='BASE.LOGO'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-AYUDA' style='position:absolute; left:1114px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.AYUDA'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-LASTR' style='position:absolute; left:1006px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.LASTR'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-FIRSTR' style='position:absolute; left:970px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.FIRSTR'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-KEY_EXIT' style='position:absolute; left:1150px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.KEY_EXIT'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-ABAJO' style='position:absolute; left:1078px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.ABAJO'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-ARRIBA' style='position:absolute; left:1042px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.ARRIBA'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-IMPRIMIR' style='position:absolute; left:682px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.IMPRIMIR'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-DELETE_RECORD' style='position:absolute; left:754px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.DELETE_RECORD'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-NEXT_BLOCK' style='position:absolute; left:934px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.NEXT_BLOCK'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-LIST' style='position:absolute; left:862px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.LIST'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-EDIT' style='position:absolute; left:790px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.EDIT'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-CLEAR_RECORD' style='position:absolute; left:826px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.CLEAR_RECORD'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-SAVE' style='position:absolute; left:610px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.SAVE'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-INSERT_RECORD' style='position:absolute; left:718px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.INSERT_RECORD'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-QUERY_FIND' style='position:absolute; left:646px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.QUERY_FIND'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-PREV_BLOCK' style='position:absolute; left:898px; top:0px; width: 36px; height:36px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.PREV_BLOCK'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == "TOOLBAR"' class='form-elem item' data-canvas-name='TOOLBAR' id='TOOLBAR-BUTTON_HELP' style='position:absolute; left:788px; top:70px; width: 102px; height:36px; border: 1px solid green;'>
+  <app-input-item [(ngModel)]='TOOLBAR.BUTTON_HELP'></app-input-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-PRINT' style='position:absolute; left:756px; top:28px; width: 32px; height:28px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.PRINT'></app-button-item>
+</div>
+<div *ngIf='currentCanvas == ""' class='form-elem item' id='TOOLBAR-HELP' style='position:absolute; left:504px; top:28px; width: 32px; height:28px; border: 1px solid green;'>
+  <app-button-item [(ngModel)]='TOOLBAR.HELP'></app-button-item>
+</div>
+</div>

@@ -1,0 +1,20 @@
+<mat-table [dataSource]="dataProvider">
+    <ng-container matColumnDef="col1">
+        <mat-header-cell *matHeaderCellDef> Cuentas del Puc </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.BAXTER_CODCTA}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="col2">
+        <mat-header-cell *matHeaderCellDef> </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.DES_CUENTA}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="col3">
+        <mat-header-cell *matHeaderCellDef> Valor Cta. </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.BAXTER_VALORC}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="col4">
+        <mat-header-cell *matHeaderCellDef> PRT/CTA </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.BAXTER_VALPAR}} </mat-cell>
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
